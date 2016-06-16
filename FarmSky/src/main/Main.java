@@ -9,7 +9,7 @@ public class Main {
 	
 	public static ForecastIO fIO= new ForecastIO(apiKey);
 	public static void main(String[] args) {
-	fIO.getForecast("49","-88");
+	fIO.getForecast("49","-87");
 	FIOCurrently currently = new FIOCurrently(fIO);
 	
 	System.out.println(fIO.getLatitude());
